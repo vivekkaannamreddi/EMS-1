@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="f2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="word">
+            <span class="first-letter">E</span>
+            <span class="letter" style="animation-delay: 0.5s;">m</span>
+            <span class="letter" style="animation-delay: 0.7s;">p</span>
+            <span class="letter" style="animation-delay: 0.9s;">l</span>
+            <span class="letter" style="animation-delay: 1.1s;">o</span>
+            <span class="letter" style="animation-delay: 1.3s;">y</span>
+            <span class="letter" style="animation-delay: 1.5s;">e</span>
+            <span class="letter" style="animation-delay: 1.7s;">e</span>
+        </div>
+        
+        <div class="word" style="margin-left: 0.5em;"> 
+            <span class="letter" style="animation-delay: 1.9s;">M</span>
+            <span class="letter" style="animation-delay: 2.0s;">a</span>
+            <span class="letter" style="animation-delay: 2.1s;">n</span>
+            <span class="letter" style="animation-delay: 2.2s;">a</span>
+            <span class="letter" style="animation-delay: 2.3s;">g</span>
+            <span class="letter" style="animation-delay: 2.4s;">e</span>
+            <span class="letter" style="animation-delay: 2.5s;">m</span>
+            <span class="letter" style="animation-delay: 2.6s;">e</span>
+            <span class="letter" style="animation-delay: 2.7s;">n</span>
+            <span class="letter" style="animation-delay: 2.8s;">t</span>
+        </div>
+
+        <div class="word" style="margin-left: 0.5em;"> 
+            <span class="letter" style="animation-delay: 2.9s;">S</span>
+            <span class="letter" style="animation-delay: 3.0s;">y</span>
+            <span class="letter" style="animation-delay: 3.1s;">s</span>
+            <span class="letter" style="animation-delay: 3.2s;">t</span>
+            <span class="letter" style="animation-delay: 3.3s;">e</span>
+            <span class="letter" style="animation-delay: 3.4s;">m</span>
+        </div>
+    </div>
+
+    <div class="emp" >
+        
+        
+        <section class="employee-form">
+            <h2>Add New Employee</h2>
+            <form id="employeeForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+    
+                <label for="position">Position:</label>
+                <input type="text" id="position" required>
+    
+                <label for="salary">Salary:</label>
+                <input type="number" id="salary" required>
+    
+                <button type="submit">Add Employee</button>
+            </form>
+        </section>
+    
+        <section class="employee-list">
+            <h2 style="margin-bottom: 20px;">Employee List</h2>
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </section>
+    
+    </div>
+    <script src="f3.js"></script>
+</body>
+</html>
